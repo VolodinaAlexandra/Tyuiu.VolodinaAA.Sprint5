@@ -11,7 +11,7 @@ namespace Tyuiu.VolodinaAA.Sprint5.Task0.V6
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
 
             Console.Title = "Спринт#5 |Выполнила: Володина А.А.|ПКТб-23-1";
             Console.WriteLine("***************************************************************************");

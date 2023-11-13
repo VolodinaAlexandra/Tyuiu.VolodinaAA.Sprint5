@@ -17,6 +17,6 @@ namespace Tyuiu.VolodinaAA.Sprint5.Task0.V6.Lib
             y = Math.Round(y, 3);
             File.WriteAllText(path, Convert.ToString(y));
             return path;
-        }
+        } 
     }
 }
