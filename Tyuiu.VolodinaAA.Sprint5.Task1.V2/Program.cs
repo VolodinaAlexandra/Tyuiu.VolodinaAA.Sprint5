@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Tyuiu.VolodinaAA.Sprint5.Task1.V2.Lib;
+using System.IO;
 
 namespace Tyuiu.VolodinaAA.Sprint5.Task1.V2
 {
@@ -43,6 +44,19 @@ namespace Tyuiu.VolodinaAA.Sprint5.Task1.V2
 
             string res = ds.SaveToFileTextData(startValue,stopValue);
             Console.WriteLine($"Файл: {res} успешно создан!!!!!!!!!");
+
+            Console.WriteLine("+-------------+-------------+");
+            Console.WriteLine("|      X      |     f(x)    |");
+            Console.WriteLine("+-------------+-------------+");
+
+            string[] y = File.ReadAllLines(res);
+
+            for (int x = startValue, i = 0; x <= stopValue; x++, i++)
+            {
+                Console.WriteLine("| {0,6:d}      |   {1,6:f2}    |", x, Convert.ToDouble(y[i]));
+            }
+
+            Console.WriteLine("+-------------+-------------+");
             Console.ReadKey();
         }
     }
