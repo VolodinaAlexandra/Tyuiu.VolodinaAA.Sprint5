@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VolodinaAA.Sprint5.Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VolodinaAA.Sprint5.Task2.V27.Test", "Tyuiu.VolodinaAA.Sprint5.Task2.V27.Test\Tyuiu.VolodinaAA.Sprint5.Task2.V27.Test.csproj", "{015F926D-479B-4EE8-9246-79AE628A1FAC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task5", "Task5", "{4FDDB094-B23F-4ACF-AE5B-A5877DBAEB02}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{4FDDB094-B23F-4ACF-AE5B-A5877DBAEB02}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.VolodinaAA.Sprint5.Task3.V30", "Tyuiu.VolodinaAA.Sprint5.Task3.V30\Tyuiu.VolodinaAA.Sprint5.Task3.V30.csproj", "{12951C10-CFC2-409B-9501-F09B663A8D29}"
 EndProject
