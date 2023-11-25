@@ -31,7 +31,7 @@ namespace Tyuiu.VolodinaAA.Sprint5.Task4.V19
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string path = $@"{Directory.GetCurrentDirectory()}\InPutDataFileTask4V19.txt";
+            string path = $@"C:\DataSprint5\InPutDataFileTask4V19.txt";
             Console.WriteLine($"Данные находятся в файле: {path}");
              
 
